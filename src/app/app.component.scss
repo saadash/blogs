@@ -1,0 +1,11 @@
+.tab-bar {
+  border: none !important;
+}
+
+.tab-button {
+  filter: grayscale(100%);
+}
+
+.tab-button[aria-selected="true"] {
+  filter: unset;
+}
